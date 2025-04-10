@@ -1,0 +1,21 @@
+    # PyInstaller build artifacts
+    dist/
+    build/
+    *.spec
+
+    # Python cache files
+    __pycache__/
+    *.py[cod] 
+
+    # Database file
+    notes.db
+
+    # Virtual environment (if you use one, e.g., venv, .venv)
+    venv/
+    .venv/
+    env/
+    .env/
+
+    # IDE specific files (examples)
+    .vscode/
+    .idea/
