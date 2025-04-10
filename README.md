@@ -12,32 +12,22 @@
 - 查看所有笔记
 - 美观的图形用户界面
 - SQLite数据库支持
-
-## 安装要求
-
-- Python 3.7+
-- 依赖包：
-  - rich
-  - typer
-  - sqlalchemy
-  - PyQt6
+- 自动管理依赖项
 
 ## 安装步骤
 
 1. 克隆或下载本项目
-2. 安装依赖包：
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. 访问 [GitHub Releases](https://github.com/1mitsuha/-/releases) 下载最新版本的程序包。
 
 ## 使用方法
 
-1. 运行图形界面版本：
+1. 解压下载的程序包。
+2. 运行图形界面版本：
    ```bash
    python gui_main.py
    ```
 
-2. 或者运行命令行版本：
+3. 或者运行命令行版本：
    ```bash
    python main.py
    ```
@@ -62,4 +52,4 @@
 - 笔记标题是唯一的，不能重复
 - 所有操作都会自动保存
 - 支持中文输入和显示
-- 数据库操作是事务性的，确保数据一致性 
+- 数据库操作是事务性的，确保数据一致性
